@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.head{
+    width: 95%;
+    margin: 20px auto;
+}
+.blank,.center,.create-account{
+    width: 33%;
+}
+.logo{
+    width: 150px;
+    height: 40px;
+
+}
+.logo img{
+    width: 80%;
+}
+.create-account{
+    text-align: right;
+}
+.create-account a{
+    color: #0b4c8c;
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.sign-in-google{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 45px;
+    border: 2px solid rgb(202, 197, 197);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.sign-in-google:hover{
+    box-shadow: 0px 2px 2px 0 lightgray;
+}
+.google-logo{
+    width: 20px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.google-logo img{
+    width: 100%;
+}
+.google-btn{
+    width: 190px;
+    height: 40px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.sign-in-apple{
+    margin: auto;
+    margin-top: 15px;
+    width: 80%;
+    height: 45px;
+    border: 2px solid rgb(202, 197, 197);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.sign-in-apple:hover{
+    box-shadow: 0px 2px 2px 0 lightgray;
+}
+.apple-logo{
+    width: 6%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.apple-logo img{
+    width: 100%;
+}
+.apple-btn{
+    width: 45%;
+    height: 40px;
+    background-color:white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+.email-id{
+    width: 80%;
+    height: 40px;
+    border: 2px solid rgb(202, 197, 197);
+    font-size: 18px;
+    border-radius: 6px;
+    padding-left: 10px;
+}
+
+.email-btn{
+    margin: auto;
+    margin-top: 20px;
+    background-color: #5c2c5d;
+    color: white;
+    width: 80%;
+    height: 45px;
+    border: 2px solid rgb(202, 197, 197);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    border: none;
+}
+.or{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-text{
+    width: 15%;
+}
+.left-line,.right-line{
+    width: 33%;
+}
+
+.gray-box{
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f0f0f0;
+    color: rgb(74, 71, 71);
+    padding: 15px;
+    border-radius: 6px;
+    padding-left: 20px;
+    line-height: 22px;
+}
+span{
+    color:#0b4c8c;
+}
+
+.bottom-info a{
+    font-size: 15px;
+    color: rgb(113, 108, 108);
+    margin-right: 10px;
+}
+.bottom-info a:hover{
+    color: #0b4c8c;
+    border-bottom: 1px solid #0b4c8c;
+}
+
+
+@media screen and (max-width:426px) {
+    .form,.google-btn{
+        width: 100%;
+    }
+    .form h1{
+        font-size: 2rem;
+    }
+
+    .sign-in-google,.sign-in-apple,.email-id,.email-btn{
+        width: 100%;
+    }
+    .form p{
+        font-size: 15px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .form,.google-btn{
+        width: 70%;
+    }
+
+    .sign-in-google,.sign-in-apple,.email-id,.email-btn{
+        width: 90%;
+    }
+}
+
